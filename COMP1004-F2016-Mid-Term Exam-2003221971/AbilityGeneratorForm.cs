@@ -114,5 +114,10 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
             // Step 5 - Show the next form
             raceAndClassForm.Show();
         }
+
+        private void AbilityGeneratorForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
