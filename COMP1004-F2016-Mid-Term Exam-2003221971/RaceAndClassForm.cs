@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * App: Character Generator
+ * Author: Lucas Schoenardie
+ * Created on: 20/10/2016
+ * Description: Generates a D&D character with random stats and random name;
+ */
+
+using COMP1004_F2016_Mid_Term_Exam_2003221971.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +28,25 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
         public RaceAndClassForm()
         {
             InitializeComponent();
+            
+        }
+
+        private void RaceAndClassForm_Load(object sender, EventArgs e)
+        {
+            // Set Race property from character class as "Human"
+            if (Program.character.Race == "")
+            {
+                Program.character.Race = "Human";
+            }
+            // loop through radiobuttons and check the one that matches the value of the Race property of character class
+            var radioButtons = RaceGroupBox.Controls.OfType<RadioButton>();
+            foreach (RadioButton rb in radioButtons)
+            {
+                if (rb.Name.Equals(Program.character.Race + "RadioButton"))
+                {
+                    rb.Checked = true;
+                }
+            }
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -40,15 +67,23 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
             RadioButton selectedRace = (RadioButton)sender;
 
             this._selectedRace = selectedRace.Text;
+            Program.character.Race = this._selectedRace;
+
+            // string imageString = selectedRace.Name;
+            // this.RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(imageString);
+            // RacePictureBox.Image = Properties.Resources.Human_Male;
         }
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            FinalForm finalForm = new FinalForm();
-            finalForm.previousForm = this;
 
-            finalForm.Show();
+            GenerateNameForm generateNameForm = new GenerateNameForm();
+            generateNameForm.previousForm = this;
+
+            generateNameForm.Show();
             this.Hide();
         }
+
+        
     }
 }

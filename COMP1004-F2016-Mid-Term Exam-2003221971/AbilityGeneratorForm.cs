@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * App: Character Generator
+ * Author: Lucas Schoenardie
+ * Created on: 20/10/2016
+ * Description: Generates a D&D character with random stats and random name;
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
