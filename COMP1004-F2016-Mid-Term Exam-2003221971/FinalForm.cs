@@ -5,6 +5,7 @@
  * Description: Generates a D&D character with random stats and random name;
  */
 
+using COMP1004_F2016_Mid_Term_Exam_2003221971.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
         {
             InitializeComponent();
             FillTextBoxes();
+            RacePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            string imageString = RaceTextBox.Text + "RadioButton";
+            this.RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(imageString);
         }
 
         // fill text boxes with corresponding data

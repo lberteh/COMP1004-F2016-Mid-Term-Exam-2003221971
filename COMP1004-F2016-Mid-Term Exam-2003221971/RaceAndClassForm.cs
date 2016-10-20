@@ -28,13 +28,19 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
         public RaceAndClassForm()
         {
             InitializeComponent();
-            
+
+            RacePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            if(RacePictureBox.Image == null)
+            {
+                this.RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject("HumanRadioButton");
+            }
         }
 
         private void RaceAndClassForm_Load(object sender, EventArgs e)
         {
             // Set Race property from character class as "Human"
-            if (Program.character.Race == "")
+            if (Program.character.Race == null)
             {
                 Program.character.Race = "Human";
             }
@@ -69,9 +75,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971
             this._selectedRace = selectedRace.Text;
             Program.character.Race = this._selectedRace;
 
-            // string imageString = selectedRace.Name;
-            // this.RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(imageString);
-            // RacePictureBox.Image = Properties.Resources.Human_Male;
+            string imageString = selectedRace.Name;
+            this.RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(imageString);
+           
         }
 
         private void NextButton_Click(object sender, EventArgs e)

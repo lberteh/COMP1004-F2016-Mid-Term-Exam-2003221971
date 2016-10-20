@@ -121,25 +121,25 @@
   <data name="Dwarf_Female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\dwarf-female.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dwarf_Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="DwarfRadioButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\DwarfRadioButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Elf_Female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\elf-female.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elf_Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ElfRadioButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\ElfRadioButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Halfling_Female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\halfling-female.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Halfling_Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="HalflingRadioButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\HalflingRadioButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Human_Female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\human-female.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Human_Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="HumanRadioButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\HumanRadioButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="splashSceen" type="System.Resources.ResXFileRef, System.Windows.Forms">

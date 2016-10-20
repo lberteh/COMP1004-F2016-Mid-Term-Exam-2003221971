@@ -73,9 +73,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Dwarf_Male {
+        internal static System.Drawing.Bitmap DwarfRadioButton {
             get {
-                object obj = ResourceManager.GetObject("Dwarf_Male", resourceCulture);
+                object obj = ResourceManager.GetObject("DwarfRadioButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Elf_Male {
+        internal static System.Drawing.Bitmap ElfRadioButton {
             get {
-                object obj = ResourceManager.GetObject("Elf_Male", resourceCulture);
+                object obj = ResourceManager.GetObject("ElfRadioButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Halfling_Male {
+        internal static System.Drawing.Bitmap HalflingRadioButton {
             get {
-                object obj = ResourceManager.GetObject("Halfling_Male", resourceCulture);
+                object obj = ResourceManager.GetObject("HalflingRadioButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_2003221971.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Human_Male {
+        internal static System.Drawing.Bitmap HumanRadioButton {
             get {
-                object obj = ResourceManager.GetObject("Human_Male", resourceCulture);
+                object obj = ResourceManager.GetObject("HumanRadioButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
